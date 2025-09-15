@@ -1,0 +1,7 @@
+# Create profile
+curl -X POST http://localhost:4400/profile \
+  -H "Content-Type: application/json" \
+  -d '{"id":"","name":"Rick","email":"rick@example.com","avatar_url":null}'
+
+# Get profile
+curl http://localhost:4400/profile/<uuid>
