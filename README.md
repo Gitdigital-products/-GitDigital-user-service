@@ -1,15 +1,6 @@
-# user-profile-service
-# User Profile Service  Service for managing **user profiles** in the Gitdigital Products ecosystem.   Works alongside the Auth Service to provide user identity, preferences, and avatars.  ## 🚀 Features - `POST /profile` → Create a new user profile - `GET /profile/:id` → Retrieve a profile by ID - Auto-generated UUIDs for 
-# User Profile Service
+# GitDigital User Service
+Stores and manages user profiles, organizations, team members, usage stats, and account settings.
 
-Service for managing **user profiles** in the Gitdigital Products ecosystem.  
-Works alongside the Auth Service to provide user identity, preferences, and avatars.
-
-## 🚀 Features
-- `POST /profile` → Create a new user profile
-- `GET /profile/:id` → Retrieve a profile by ID
-- Auto-generated UUIDs for each profile
-
-## 🛠️ Setup
-```bash
-cargo run
+## Integrations
+- gitdigital-auth for identity
+- gitdigital-billing for subscription state
